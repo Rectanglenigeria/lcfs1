@@ -1,0 +1,50 @@
+//send GS MATCHING SMS
+
+          $json_url = "http://api.ebulksms.com:8080/sendsms.json";
+          $xml_url = "http://api.ebulksms.com:8080/sendsms.xml";
+          $username = null;
+          $apikey = null;
+
+              $username = "smilesteadily@gmail.com";
+              $apikey = "4c8260b451691cdbb07dfa8e47a994bdcd412b51";
+              $sendername = substr("SMILES!", 0, 11);
+              $recipients = $gsmile->user->phone;
+              $message = number_format($amountToRemoveFromGS)." of 80% smile has been matched.Kindly make payment and get confirmed. If fully matched, proceed to have your new GS IP confirmed to enable your RS";
+              $flash = 0;
+              if (get_magic_quotes_gpc()) {
+                  $message = stripslashes($message);
+              }
+              $message = substr($message, 0, 160);
+          #Use the next line for HTTP POST with JSON
+              $result = $this->useJSON($json_url, $username, $apikey, $flash, $sendername, $message, $recipients);
+          #Uncomment the next line and comment the one above if you want to use HTTP POST with XML
+              //$result = useXML($xml_url, $username, $apikey, $flash, $sendername, $message, $recipients);
+
+
+
+
+          //$result=="SUCCESS"
+
+
+
+//send RS SMS
+
+$json_url = "http://api.ebulksms.com:8080/sendsms.json";
+$xml_url = "http://api.ebulksms.com:8080/sendsms.xml";
+$username = null;
+$apikey = null;
+
+  $username = "smilesteadily@gmail.com";
+  $apikey = "4c8260b451691cdbb07dfa8e47a994bdcd412b51";
+  $sendername = substr("SMILES!", 0, 11);
+  $recipients = $rsmile->user->phone;
+  $message = "Hi SMILER, you've been matched to receive a sum of ".number_format($amountToRemoveFromGS, 2)." from ".$gsmile->user->name.". kindly login to your dashboard.";
+  $flash = 0;
+  if (get_magic_quotes_gpc()) {
+      $message = stripslashes($message);
+  }
+  $message = substr($message, 0, 160);
+#Use the next line for HTTP POST with JSON
+  $result = $this->useJSON($json_url, $username, $apikey, $flash, $sendername, $message, $recipients);
+#Uncomment the next line and comment the one above if you want to use HTTP POST with XML
+  //$result = useXML($xml_url, $username, $apikey, $flash, $sendername, $message, $recipients);

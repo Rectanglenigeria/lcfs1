@@ -1,0 +1,29 @@
+.cbt_frame{
+	text-align: left;
+	background-color: #F5F5F5;
+	border: none solid 5px;
+	padding: 50px;
+	
+	border-radius: 5px;
+	border-top: #FF1493 solid 5px;
+	box-shadow: 10px 10px 10px silver;
+	font-family: "Trebuchet MS";
+	width: 50%;
+}
+
+.alert{
+	color: red;
+	font-style: italic;
+	font-size: 80%;
+}
+
+.info{
+	color: white ;
+	font-style: italic;
+	font-size: 100%;
+	padding: 10px;
+	background-color: #4169E1;
+	border:transparent solid 0px;
+	box-shadow: 5px 5px 5px silver;
+	border-radius: 3px;
+}

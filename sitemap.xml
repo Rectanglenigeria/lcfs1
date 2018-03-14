@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>https://smilesteadily.net/</loc>
+  <changefreq>hourly</changefreq>
+</url>
+<url>
+  <loc>https://smilesteadily.net/register</loc>
+  <changefreq>hourly</changefreq>
+</url>
+<url>
+  <loc>https://smilesteadily.net/about</loc>
+  <changefreq>hourly</changefreq>
+</url>
+<url>
+  <loc>https://smilesteadily.net/contact</loc>
+  <changefreq>hourly</changefreq>
+</url>
+<url>
+  <loc>https://smilesteadily.net/faqs</loc>
+  <changefreq>hourly</changefreq>
+</url>
+<url>
+  <loc>https://smilesteadily.net/testimonial</loc>
+  <changefreq>hourly</changefreq>
+</url>
+<url>
+  <loc>https://smilesteadily.net/login</loc>
+  <changefreq>hourly</changefreq>
+</url>
+<url>
+  <loc>https://smilesteadily.net/passwords/reset</loc>
+  <changefreq>hourly</changefreq>
+</url>
+</urlset>

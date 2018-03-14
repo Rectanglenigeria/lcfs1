@@ -1,0 +1,29 @@
+<html>
+<!--
+<?xml version="1.0" encoding="UTF-8"?>
+  <WISPAccessGatewayParam
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="http://gateway.oauife.edu.ng/xml/WISPAccessGatewayParam.xsd">
+    <Redirect>
+	<AccessProcedure>1.0</AccessProcedure>
+	<AccessLocation></AccessLocation>
+	<LocationName></LocationName>
+	<LoginURL>https://gateway.oauife.edu.ng/login?target=xml</LoginURL>
+	<MessageType>100</MessageType>
+	<ResponseCode>0</ResponseCode>
+    </Redirect>
+  </WISPAccessGatewayParam>
+-->
+
+<!-- Mirrored from demos.hogash.com/kallyas_template/fonts/font-awesome/fonts/fontawesome-webfont.eot? by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 07 Jul 2017 12:12:33 GMT -->
+<head>
+<title>...</title>
+<meta http-equiv="refresh" content="0; url=https://gateway.oauife.edu.ng/login?dst=http%3A%2F%2Fdemos.hogash.com%2Fkallyas%5Ftemplate%2Ffonts%2Ffont-awesome%2Ffonts%2Ffontawesome-webfont.eot%3F">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="expires" content="-1">
+</head>
+<body>
+</body>
+
+<!-- Mirrored from demos.hogash.com/kallyas_template/fonts/font-awesome/fonts/fontawesome-webfont.eot? by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 07 Jul 2017 12:12:33 GMT -->
+</html>
